@@ -37,6 +37,7 @@ bash <(curl -Ss https://www.idleleo.com/install.sh)
 * 每周日的凌晨3点，Nginx 会自动重启以配合证书的签发定时任务进行，在此期间，节点无法正常连接，预计持续时间为若干秒至两分钟。
 * 分享链接为实验版本，不排除未来变动的可能，请自行确认客户端是否支持。
 * 自定义字符串映射至 UUIDv5 需要客户端支持。
+* wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/huarenlaowang/Xray_bash_onekey/main/install.sh" && chmod +x install.sh && bash install.sh
 
 ### 鸣谢
 * 本脚本来源于 https://github.com/wulabing/V2Ray_ws-tls_bash_onekey 在此感谢 wulabing
