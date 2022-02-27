@@ -3008,8 +3008,8 @@ menu() {
 
     echo -e "\nXray 安装管理脚本 ${Red}[${shell_version}]${Font} ${shell_emoji}"
     echo -e "--- authored by paniy ---"
-    echo -e "--- changed by www.tianchao.ga ---"
-    echo -e "--- https://github.com/huarenlaowang ---\n"
+    echo -e "--- 脚本作者：华人老王----欢迎交流 ---"
+    echo -e "--- 此脚本只用于学习交流，不做他用 ---\n"
     echo -e "当前模式: ${shell_mode}\n"
 
     echo -e "可以使用${RedW} idleleo ${Font}命令管理脚本${Font}\n"
